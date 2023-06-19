@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\blog-photo1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-photo1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\blog-photo2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-photo2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\blog-photo3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-photo3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\blog-photo4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-photo4.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\main-info.jpeg",
+      "PackagePath": "staticwebassets\\img\\main-info.jpeg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\project-photo1.jpg",
+      "PackagePath": "staticwebassets\\img\\project-photo1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\project-photo2.jpg",
+      "PackagePath": "staticwebassets\\img\\project-photo2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\SkillProfi\\SkillProfi\\wwwroot\\img\\project-photo3.png",
+      "PackagePath": "staticwebassets\\img\\project-photo3.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SkillProfi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SkillProfi.props",
+      "PackagePath": "build\\SkillProfi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SkillProfi.props",
+      "PackagePath": "buildMultiTargeting\\SkillProfi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SkillProfi.props",
+      "PackagePath": "buildTransitive\\SkillProfi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
