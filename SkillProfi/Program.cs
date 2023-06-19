@@ -32,7 +32,9 @@ builder.Services.AddIdentity<User, IdentityRole>()
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequiredLength = 2; // минимальное количество знаков в пароле
-
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequireUppercase = false;
 
 
     options.Lockout.MaxFailedAccessAttempts = 10; // количество попыток о блокировки
@@ -52,7 +54,6 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Add services to the container.
 
 var app = builder.Build();
-ConfigurationManager configuration = (ConfigurationManager)app.Configuration;
 app.UseStaticFiles();
 
 app.UseAuthentication();
@@ -61,7 +62,7 @@ app.UseMvc(routes =>
 {
     routes.MapRoute(
         name: "default",
-        template: "{controller=account}/{action=register}/{id?}");
+        template: "{controller=home}/{action=index}/{id?}");
 });
 
 app.Run();

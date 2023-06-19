@@ -3,11 +3,11 @@
     <div>
         <div>
             <h3>Регистрация</h3>
-            <form action="~/Account/Register" asp-antiforgery="true" method="Post">
-                <input name="LoginProp" placeholder="Логин" />
-                <input type="password" name="Password" placeholder="Пароль" />
-                <input type="password" name="ConfirmPassword" placeholder="Повторите пароль" />
-                <input type="submit" value="Зарегистрироваться" />
+            <form action="~/Account/Register" asp-antiforgery="true" method="post" class="register-form">
+                <input class="input-user" name="LoginProp" placeholder="Логин" />
+                <input class="input-user" type="password" name="Password" placeholder="Пароль" />
+                <input class="input-user" type="password" name="ConfirmPassword" placeholder="Повторите пароль" />
+                <input class="input-user btn-user" type="submit" value="Зарегистрироваться" />
                 </form>
             @*<form asp-action="Register" asp-antiforgery="true" class="form">
                 <div asp-validation-summary="ModelOnly"></div>

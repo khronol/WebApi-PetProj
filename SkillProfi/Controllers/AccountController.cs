@@ -22,7 +22,7 @@ namespace SkillProfi.Controllers
             return View();
         }
 
-        [HttpPost, ValidateAntiForgeryToken]
+        [HttpPost]
         public async Task<IActionResult> Login(UserLogin model)
         {
             if (ModelState.IsValid)
@@ -34,7 +34,7 @@ namespace SkillProfi.Controllers
 
                 if (loginResult.Succeeded)
                 {
-                    return RedirectToAction("~/");
+                    return Redirect("/");
                 }
 
             }
@@ -50,7 +50,7 @@ namespace SkillProfi.Controllers
             return View(new UserRegistration());
         }
 
-        [HttpPost, ValidateAntiForgeryToken]
+        [HttpPost]
         public async Task<IActionResult> Register(UserRegistration model)
         {
             if (ModelState.IsValid)
@@ -62,7 +62,7 @@ namespace SkillProfi.Controllers
                 {
                     await _signInManager.SignInAsync(user, false);
 
-                    return RedirectToAction("/index");
+                    return Redirect("/");
                 }
                 else//иначе
                 {
@@ -77,11 +77,11 @@ namespace SkillProfi.Controllers
         }
 
 
-        [HttpPost, ValidateAntiForgeryToken]
+        [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("~/");
+            return Redirect("/");
         }
         public IActionResult Roles()
         {

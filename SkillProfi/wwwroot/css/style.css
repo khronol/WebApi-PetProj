@@ -13,6 +13,30 @@ body {
   width: 1200px;
 }
 
+.header-bottom{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.navbar-brand{
+    color:#fff;
+}
+
+.register-form{
+    display:flex;
+    flex-direction:column;
+    width: 250px;
+}
+
+.input-user:not(:last-child){
+    margin-bottom:10px;
+}
+
+.btn-user{
+    background-color: #fdf5e6;
+}
+
 .btn{
   background: #e0ffff;
   border: 1px solid #240935;
@@ -127,6 +151,7 @@ body {
 }
 
 .form-input-big {
+  padding: 5px 5px;
   min-height: 100px;
   min-width: 643px;
 }
