@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPF_SkillProfi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_SkillProfi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="stackPanel" Grid.Column="1" DataContext="{Binding appeals}" Margin="50,0,0,0">
+            <TextBlock Text="Имя" FontSize="20" Width="43"/>
+            <TextBox x:Name="txtName" Text="{Binding appeals.Name, Mode=TwoWay}" Width="347" Height="21"/>
+            <TextBlock Text="E-mail" FontSize="20" Width="56"/>
+            <TextBox x:Name="txtEmail" Text="{Binding appeals.Email, Mode=TwoWay}" Width="344"/>
+            <TextBlock Text="Обращение" FontSize="20" Width="110"/>
+            <TextBox x:Name="txtAppeal" Text="{Binding appeals.userAppeal, Mode=TwoWay}" Width="340" Height="200" TextWrapping="Wrap"/>
+
+            <Button x:Name="btnAdd" Content="Добавить" FontSize="20" Margin="5"></Button>
+            <Button x:Name="btnRefresh" Content="Обновить" FontSize="20" Margin="5"></Button>
+        </StackPanel>
+        <ListView x:Name="listView" Grid.ColumnSpan="2" Margin="0,0,350,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Id}" Header="Id"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Name"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Email}" Header="Email" Width="80"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding userAppeal}" Header="Appeal" Width="315"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

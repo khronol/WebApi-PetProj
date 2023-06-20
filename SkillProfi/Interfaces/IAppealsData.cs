@@ -1,6 +1,6 @@
-﻿using WebApi.Models;
+﻿using SkillProfi.Models;
 
-namespace WebApi.Interface
+namespace SkillProfi.Interfaces
 {
     public interface IAppealsData
     {
