@@ -30,10 +30,10 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
-using WPF_SkillProfi;
+using SkillProfi_WPF;
 
 
-namespace WPF_SkillProfi {
+namespace SkillProfi_WPF {
     
     
     /// <summary>
@@ -62,7 +62,7 @@ namespace WPF_SkillProfi {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.5.0")]
         public static void Main() {
-            WPF_SkillProfi.App app = new WPF_SkillProfi.App();
+            SkillProfi_WPF.App app = new SkillProfi_WPF.App();
             app.InitializeComponent();
             app.Run();
         }

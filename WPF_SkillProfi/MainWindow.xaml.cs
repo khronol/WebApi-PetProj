@@ -15,7 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 
-namespace WPF_SkillProfi
+namespace SkillProfi_WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

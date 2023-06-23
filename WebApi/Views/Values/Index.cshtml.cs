@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WebApi.Views.Values
+namespace SkillProfi_WebApi.Views.Values
 {
     public class IndexModel : PageModel
     {

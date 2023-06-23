@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L39ZyM5VmjgeWQhgTmGxfhQtJLD3FX/543lRNOfDH+2iLq5vjqRoVYTqZSu06gPYtSaq7cAuEaow0vUv9fZxGA==",
+  "dgSpecHash": "DxHAJnvv4+/SbEiZgyLe5500cfN9C2zWDAkSws7obagYCjtxfWvwLBFq89Cou65XG9BWEWPj8Hns7JL4ntFPZQ==",
   "success": true,
-  "projectFilePath": "D:\\projects\\SkillProfi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\projects\\SkillProfi\\WebApi\\SkillProfi_WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rutoc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rutoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.18\\microsoft.aspnetcore.cryptography.internal.6.0.18.nupkg.sha512",

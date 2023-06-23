@@ -62,9 +62,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\SkillProfi\\WPF_SkillProfi\\WPF_SkillProfi.csproj",
-      "projectName": "WPF_SkillProfi",
-      "projectPath": "D:\\projects\\SkillProfi\\WPF_SkillProfi\\WPF_SkillProfi.csproj",
+      "projectUniqueName": "D:\\projects\\SkillProfi\\WPF_SkillProfi\\SkillProfi_WPF.csproj",
+      "projectName": "SkillProfi_WPF",
+      "projectPath": "D:\\projects\\SkillProfi\\WPF_SkillProfi\\SkillProfi_WPF.csproj",
       "packagesPath": "C:\\Users\\rutoc\\.nuget\\packages\\",
       "outputPath": "D:\\projects\\SkillProfi\\WPF_SkillProfi\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,7 +1,7 @@
-﻿<Application x:Class="WPF_SkillProfi.App"
+﻿<Application x:Class="SkillProfi_WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPF_SkillProfi"
+             xmlns:local="clr-namespace:SkillProfi_WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

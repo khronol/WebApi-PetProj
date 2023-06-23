@@ -1,4 +1,4 @@
-﻿namespace WebApi.Models
+﻿namespace SkillProfi_WebApi.Models
 {
     public interface IAppeal
     {

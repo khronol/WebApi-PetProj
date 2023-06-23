@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 
-namespace WebApi.Models
+namespace SkillProfi_WebApi.Models
 {
     public class Appeal : IAppeal
     {

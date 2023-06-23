@@ -2407,9 +2407,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\SkillProfi\\WebApi\\WebApi.csproj",
-      "projectName": "WebApi",
-      "projectPath": "D:\\projects\\SkillProfi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\projects\\SkillProfi\\WebApi\\SkillProfi_WebApi.csproj",
+      "projectName": "SkillProfi_WebApi",
+      "projectPath": "D:\\projects\\SkillProfi\\WebApi\\SkillProfi_WebApi.csproj",
       "packagesPath": "C:\\Users\\rutoc\\.nuget\\packages\\",
       "outputPath": "D:\\projects\\SkillProfi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",

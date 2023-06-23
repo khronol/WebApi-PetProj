@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Contracts;
-using WebApi.Models;
+using SkillProfi_WebApi.Models;
 
-namespace WebApi.Controllers
+namespace SkillProfi_WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
